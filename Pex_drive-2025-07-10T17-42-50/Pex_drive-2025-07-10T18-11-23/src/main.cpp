@@ -30,6 +30,9 @@ bool lastButtonState = false;
 bool activateRight = true;
 bool activateLeft = true;
 
+/**
+*this is function for conveyor run to handle scoring
+*/
 void conveyorRun() {
   if (Controller1.ButtonR1.pressing()) {
     if (activateConveyor) {
